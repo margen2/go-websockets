@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+#canvas-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#canvas {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80%;
+    height: 100%;
+}
+
+#name-list {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 20%;
+    height: 100%;
+    overflow: auto;
+    padding: 20px;
+    background-color: #eee;
+}
+
+#name-list h2 {
+    margin: 0 0 10px 0;
+}
+
+#name-list ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#name-list input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+#header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+#header h1 {
+    margin: 0;
+}
+
+#delete-button {
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#color-selector {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
